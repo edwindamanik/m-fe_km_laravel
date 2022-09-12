@@ -49,8 +49,8 @@ nav img {
 /* BREAKING NEWS CSS */
 .breaking-news-logo {
     background-color: #000000;
-    padding: 10px 15px;
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    padding: 9px 35px 11px 13px;
+    clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
     position: absolute;
 }
 
