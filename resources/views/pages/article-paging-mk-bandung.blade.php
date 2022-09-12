@@ -21,8 +21,21 @@
   {{-- artikel terkait --}}
   @include('components.related-article')
 
+    {{-- trending tag --}}
+    <div style="padding: 30px 15px 30px 15px">
+          @include('components.trending-tag')
+
+    </div>
+
   {{-- populer news --}}
   @include('components.populer-news')
+
+  {{-- Slider berita terbaru --}}
+  <div style="padding: 40px 17px 62px 17px ">
+     @include('components.slider')
+  </div>
+ 
+
 
   {{-- footer --}}
   @include('components.footer')
