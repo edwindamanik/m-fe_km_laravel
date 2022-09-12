@@ -422,7 +422,14 @@ nav img {
     flex-direction: column;
     gap: 10px;
     list-style: none;
-    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.baca-juga-list-container li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .baca-juga-list-container ul li::before {
@@ -435,6 +442,7 @@ nav img {
     font-family: var(--lato-font);
     font-weight: 700;
     font-size: 14px;
+    text-align: justify;
 }
 
 /* RELATED TAG CSS */
