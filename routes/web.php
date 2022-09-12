@@ -20,9 +20,15 @@ Route::get('/', function () {
 Route::get('/article', function () {
     return view('pages.article-paging-mk-bandung');
 });
+
 Route::get('/index-paging', function () {
     return view('pages.index-paging-mk-bandung');
 });
+
+Route::get('/index-tag-paging', function () {
+    return view('pages.index-tag-paging-mk-bandung');
+});
+
 Route::get('/404', function () {
     return view('pages.404-mk-bandung');
 });
