@@ -21,11 +21,7 @@
   {{-- artikel terkait --}}
   @include('components.related-article')
 
-    {{-- trending tag --}}
-    <div style="padding: 30px 15px 30px 15px">
-          @include('components.trending-tag')
-
-    </div>
+    
 
   {{-- populer news --}}
   @include('components.populer-news')
