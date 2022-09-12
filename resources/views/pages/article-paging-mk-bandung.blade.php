@@ -26,9 +26,18 @@
       @include('components.trending-tag')
 
 </div>
+{{-- Slider trending tag --}}
+<div style="padding: 30px 17px 48px 18px; ">
+  @include('components.slider')
+</div>
 
-  {{-- populer news --}}
-  @include('components.populer-news')
+
+{{-- populer news --}}
+<div style="padding: 0px 19px 40px 22px;">
+   @include('components.populer-news')
+</div>
+  
+ 
 
   {{-- Slider berita terbaruu --}}
   <div style="padding: 40px 17px 62px 17px ">
