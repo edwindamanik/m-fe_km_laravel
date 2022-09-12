@@ -1,5 +1,5 @@
 <div class="main-content-news-container">
-  <div style="padding: 15px">
+  <div style="padding: 20px 0 0">
     <span>Home > <a href="#">News</a></span>
     <h4>Sepenggal Kenangan Nicky Hayden ketika ada di Jalanan Jakarta</h4>
     <div class="account-detail">
@@ -23,9 +23,9 @@
       <a href="#"><img src="{{ URL::asset('assets/icons/line-shared.svg') }}" alt="line"></a>
       <a href="#">Copy Link</a>
     </div>
-    <p>Liputan6.com, Jakarta - Mendiang Nicky Hayden merupakan salah satu dari sekian banyak pebalap MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.</p>
+    <p class="content-detail" >Liputan6.com, Jakarta - Mendiang Nicky Hayden merupakan salah satu dari sekian banyak pebalap MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.</p>
     @include('components.read-too')
-    <p> MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.
+    <p class="content-detail"> MotoGP yang pernah menyambangi Indonesia. Sama seperti pebalap lain, The Kentucky Kid juga mengaku sangat terkesan dengan antusiasme masyarakat Indonesia terhadap MotoGP.
     </p>
   </div>
 </div>
