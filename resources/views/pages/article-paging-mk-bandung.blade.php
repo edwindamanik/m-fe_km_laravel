@@ -9,42 +9,31 @@
     @include('components.breaking-news')
   </header>
 
-  {{-- berita artikel --}}
-  @include('components.main-content-news')
+  <div style="padding: 0px 20px 0px 20px">
+    {{-- berita artikel --}}
+    @include('components.main-content-news')
 
-  {{-- baca juga --}}
-  @include('components.read-too-list')
+    {{-- baca juga --}}
+    @include('components.read-too-list')
 
-  {{-- related tag --}}
-  @include('components.related-tag')
+    {{-- related tag --}}
+    @include('components.related-tag')
 
-  {{-- artikel terkait --}}
-  @include('components.related-article')
+    {{-- artikel terkait --}}
+    @include('components.related-article')
 
     {{-- trending tag --}}
-    <div style="padding: 30px 15px 30px 15px">
-      @include('components.trending-tag')
+    @include('components.trending-tag')
 
-</div>
-{{-- Slider trending tag --}}
-<div style="padding: 30px 17px 48px 18px; ">
-  @include('components.slider')
-</div>
+    {{-- Slider trending tag --}}
+    @include('components.slider')
 
+    {{-- populer news --}}
+    @include('components.populer-news')
 
-{{-- populer news --}}
-<div style="padding: 0px 19px 40px 22px;">
-   @include('components.populer-news')
-</div>
-  
- 
-
-  {{-- Slider berita terbaruu --}}
-  <div style="padding: 40px 17px 62px 17px ">
-     @include('components.slider')
+    {{-- Slider berita terbaruu --}}
+      @include('components.slider')
   </div>
- 
-
 
   {{-- footer --}}
   @include('components.footer')
