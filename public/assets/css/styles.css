@@ -196,13 +196,13 @@ nav img {
 
 .slider-content {
     display: flex;
-    flex-direction: row;
-    white-space: nowrap;
-    overflow-x: auto;
-    gap: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 15px;
     align-items: center;
-    -ms-overflow-style: none;
     margin-top: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .slider-container h4 {
@@ -218,9 +218,8 @@ nav img {
     display: none;
 }
 
-.slider-container .slider-news {
-    display: flex;
-    flex-direction: column;
+.slider-container .slider-news figure {
+    width: 200px;
 }
 
 .slider-container .slider-news figcaption {
