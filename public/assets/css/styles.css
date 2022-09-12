@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prompt:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Prompt:wght@400;600&display=swap");
 
 * {
     padding: 0;
@@ -7,8 +7,8 @@
 }
 
 :root {
-    --prompt-font: 'Prompt', sans-serif;
-    --lato-font: 'Lato', sans-serif;
+    --prompt-font: "Prompt", sans-serif;
+    --lato-font: "Lato", sans-serif;
 }
 
 .special-font-prompt {
@@ -39,7 +39,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 nav img {
@@ -59,14 +59,14 @@ nav img {
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
 .breaking-text-marquee {
     z-index: -1;
     position: relative;
-    background-color: #CA0000;
+    background-color: #ca0000;
     padding: 10px 15px;
 }
 
@@ -126,12 +126,12 @@ nav img {
 }
 
 .trending-tag-container .list-trending-tag a::after {
-    content: '/';
+    content: "/";
     margin-left: 10px;
 }
 
 .trending-tag-container .list-trending-tag a:last-child::after {
-    content: '';
+    content: "";
 }
 
 .trending-tag-container .list-trending-tag a {
@@ -170,7 +170,7 @@ nav img {
     font-family: var(--lato-font);
     font-weight: 700;
     font-size: 10px;
-    color: #CA0000;
+    color: #ca0000;
     text-transform: uppercase;
 }
 
@@ -239,7 +239,7 @@ nav img {
 /* FOOTER CSS */
 .footer-container {
     background-color: #000000;
-    border-top: 4px solid #CA0000;
+    border-top: 4px solid #ca0000;
     padding: 35px 20px 15px 20px;
     text-align: center;
 }
@@ -252,7 +252,7 @@ nav img {
 }
 
 .footer-container .link-footer a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: var(--prompt-font);
     font-weight: 500;
     font-size: 14px;
@@ -264,7 +264,7 @@ nav img {
     font-family: var(--lato-font);
     font-weight: 400;
     font-size: 11px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .footer-container .social-media {
@@ -275,7 +275,7 @@ nav img {
 }
 
 .footer-container span {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: var(--lato-font);
     font-weight: 400;
     font-size: 11px;
@@ -291,7 +291,7 @@ nav img {
 }
 
 .main-content-news-container span a {
-    color: #CA0000;
+    color: #ca0000;
     text-decoration: none;
 }
 
@@ -353,9 +353,9 @@ nav img {
     font-family: var(--lato-font);
     font-weight: 700;
     font-size: 9px;
-    color: #CA0000;
+    color: #ca0000;
     padding: 8px;
-    border: 1px solid #CA0000;
+    border: 1px solid #ca0000;
     border-radius: 4px;
 }
 
@@ -381,23 +381,23 @@ nav img {
     font-family: var(--lato-font);
     font-size: 14px;
     font-weight: 700;
-    color: #CA0000;
+    color: #ca0000;
 }
 
 .baca-juga-container a::after {
-    content: ',';
+    content: ",";
 }
 
 .baca-juga-container a:last-child::after {
-    content: '';
+    content: "";
 }
 
 /* BACA JUGA LIST CONTAINER */
 .baca-juga-list-container {
     padding: 15px;
     margin: 15px;
-    background: #F9F9F9;
-    border: 1px solid #E5E5E5;
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
     border-radius: 4px;
 }
 
@@ -419,8 +419,8 @@ nav img {
 }
 
 .baca-juga-list-container ul li::before {
-    content: '• ';
-    color: #CA0000;
+    content: "• ";
+    color: #ca0000;
 }
 
 .baca-juga-list-container ul li a {
@@ -443,12 +443,12 @@ nav img {
     font-family: var(--lato-font);
     font-size: 12px;
     font-weight: 700;
-    color: #CA0000;
+    color: #ca0000;
     text-transform: uppercase;
 }
 
 .related-tag-container a::after {
-    content: '/';
+    content: "/";
     margin-left: 20px;
 }
 
@@ -457,7 +457,7 @@ nav img {
 }
 
 .related-tag-container a:last-child::after {
-    content: '';
+    content: "";
 }
 
 /* RELATED ARTICLE CSS */
@@ -496,7 +496,7 @@ nav img {
 /* POPULER CSS */
 .populer-container {
     margin: 15px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .populer-container h4 {
@@ -514,7 +514,7 @@ nav img {
 
 .list-berita-populer {
     margin-top: 20px;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #dddddd;
     border-radius: 8px;
 }
 
@@ -522,7 +522,7 @@ nav img {
     text-decoration: none;
     display: flex;
     padding: 20px 7px;
-    border-bottom: 1px solid #E5E5E5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .list-berita-populer a:last-child {
@@ -534,7 +534,7 @@ nav img {
 }
 
 .list-berita-populer h1 {
-    color: #E5E5E5;
+    color: #e5e5e5;
     font-size: 45px;
     font-family: var(--prompt-font);
     font-style: italic;
@@ -545,7 +545,7 @@ nav img {
     font-family: var(--lato-font);
     font-size: 10px;
     font-weight: 700;
-    color: #CA0000;
+    color: #ca0000;
     text-transform: uppercase;
 }
 
@@ -589,7 +589,6 @@ nav img {
 
 .tab-news-container .about-content {
     margin-top: 30px;
-
 }
 
 .tab-news-container .about-content p {
@@ -613,7 +612,7 @@ nav img {
 }
 
 .photo-collection-container span {
-    color: #CA0000;
+    color: #ca0000;
 }
 
 .photo-collection-container .card-photo-content {
@@ -656,7 +655,7 @@ nav img {
 }
 
 .video-collection-container span {
-    color: #CA0000;
+    color: #ca0000;
 }
 
 .video-collection-container .card-video-content {
@@ -701,13 +700,13 @@ nav img {
     padding: 7px 12px;
     color: #999999;
     border-radius: 4px;
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     outline: none;
 }
 
 .index-kanal-container button {
-    background-color: #CA0000;
-    color: #FFFFFF;
+    background-color: #ca0000;
+    color: #ffffff;
     text-transform: uppercase;
     font-family: var(--lato-font);
     font-weight: 700;
@@ -744,7 +743,7 @@ nav img {
 
 .report-article-container a {
     padding: 13px 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border: 1px solid #e5e5ee;
     border-radius: 8px;
 }
@@ -756,4 +755,8 @@ nav img {
     font-size: 14px;
     text-transform: uppercase;
     color: #000000;
+}
+/* ads-on */
+.ads-container {
+    margin: 25px;
 }

@@ -13,7 +13,8 @@
   @include('components.main-news')
 
   {{-- trending tag --}}
-  <div style="padding: 20px">
+  <div style="padding: 0px 20px 0px 20px">
+    @include('components.ads-on')
     @include('components.trending-tag')
     @include('components.list-main-news')
     @include('components.slider')
