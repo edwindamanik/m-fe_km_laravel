@@ -102,8 +102,8 @@ nav img {
 
 /* TRENDING TAG CSS */
 .trending-tag-container {
+    margin: 20px 0;
     padding: 15px;
-    margin-bottom: 20px;
     border: 1px solid #000000;
     border-radius: 4px;
 }
@@ -499,7 +499,6 @@ nav img {
 
 /* POPULER CSS */
 .populer-container {
-    margin: 15px;
     background: #ffffff;
 }
 
@@ -538,6 +537,8 @@ nav img {
 }
 
 .list-berita-populer h1 {
+    width: 60px;
+    text-align: center;
     color: #e5e5e5;
     font-size: 45px;
     font-family: var(--prompt-font);
@@ -773,4 +774,45 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* highlight-article */
+
+.highlight-article-container {
+    margin: 20px 0;
+}
+
+.highlight-article-container .banner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.highlight-article-container p {
+    color: #ca0000;
+    font-family: var(--lato-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.highlight-article-container span {
+    color: #999999;
+    font-family: var(--lato-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.highlight-article-container figcaption {
+    color: #000000;
+    font-weight: 700;
+    font-family: var(--lato-font);
+    font-size: 16px;
+}
+
+.highlight-article-container img {
+    object-fit: cover;
 }
