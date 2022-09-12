@@ -30,7 +30,7 @@
   {{-- populer news --}}
   @include('components.populer-news')
 
-  {{-- Slider berita terbaru --}}
+  {{-- Slider berita terbaruu --}}
   <div style="padding: 40px 17px 62px 17px ">
      @include('components.slider')
   </div>
