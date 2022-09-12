@@ -624,7 +624,7 @@ nav img {
     margin-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 15px;
 }
 
@@ -667,7 +667,7 @@ nav img {
     margin-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 15px;
 }
 
@@ -815,4 +815,19 @@ nav img {
 
 .highlight-article-container img {
     object-fit: cover;
+}
+
+/* ringkas */
+.ringkas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ringkas-container a {
+    color: #ca0000;
+    font-family: var(--lato-font);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
 }
