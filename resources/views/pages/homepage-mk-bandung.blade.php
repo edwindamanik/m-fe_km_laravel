@@ -18,6 +18,7 @@
     @include('components.trending-tag')
     @include('components.list-main-news')
     @include('components.slider')
+    @include('components.ads-main')
   </div>
 
   {{-- footer --}}
