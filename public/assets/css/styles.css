@@ -49,11 +49,9 @@ nav img {
 /* BREAKING NEWS CSS */
 .breaking-news-logo {
     background-color: #000000;
-    padding: 9px 35px 14px 13px;
-    clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+    padding: 10px 15px;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
     position: absolute;
-    display: flex;
-    align-items: center;
 }
 
 .breaking-news-logo span {
@@ -61,14 +59,14 @@ nav img {
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    color: #ffffff;
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 
 .breaking-text-marquee {
     z-index: -1;
     position: relative;
-    background-color: #ca0000;
+    background-color: #CA0000;
     padding: 10px 15px;
 }
 
@@ -80,12 +78,24 @@ nav img {
 }
 
 /* MAIN NEWS STYLING */
-.main-news-container figure img {
-    width: 100%;
-}
-
 .main-news-deskripsi {
     padding: 5px 20px 17px 20px;
+}
+
+.main-news-container .image-news {
+    position: relative;
+    --aspect-ratio: 23/14;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+}
+
+.main-news-container .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main-news-deskripsi h3 {
@@ -237,7 +247,20 @@ nav img {
     width: 190px;
 }
 
-.slider-container .slider-news img {
+.slider-container .slider-news .image-news {
+    position: relative;
+    --aspect-ratio: 16/9;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+    border-radius: 4px;
+}
+
+.slider-container .slider-news .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 4px;
 }
@@ -329,9 +352,20 @@ nav img {
     margin-top: 20px;
 }
 
-.main-content-news-container .content-news img {
+.main-content-news-container .content-news .image-news {
+    position: relative;
+    --aspect-ratio: 23/14;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+}
+
+.main-content-news-container .content-news .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 0;
+    height: 100%;
+    object-fit: cover;
 }
 
 .main-content-news-container .content-news figcaption {
@@ -488,9 +522,22 @@ nav img {
     text-transform: uppercase;
 }
 
-.artikel-terkait-container figure img {
+.artikel-terkait-container .image-news {
+    position: relative;
+    --aspect-ratio: 23/13;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+    border-radius: 8px;
+}
+
+.artikel-terkait-container .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .artikel-terkait-container a {
@@ -619,6 +666,24 @@ nav img {
     margin-bottom: 20px;
 }
 
+.photo-collection-container .image-news {
+    position: relative;
+    --aspect-ratio: 55/31;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    border-radius: 8px;
+    background-color: silver;
+}
+
+.photo-collection-container .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 .photo-collection-container h4 {
     font-family: var(--lato-font);
     font-weight: 700;
@@ -645,11 +710,6 @@ nav img {
     gap: 5px;
 }
 
-.photo-collection-container .card-photo-news img {
-    object-fit: cover;
-    border-radius: 8px;
-}
-
 .photo-collection-container .card-photo-news p {
     font-family: var(--lato-font);
     font-weight: 400;
@@ -674,6 +734,24 @@ nav img {
     color: #ca0000;
 }
 
+.video-collection-container .video-news {
+    position: relative;
+    --aspect-ratio: 55/31;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    border-radius: 8px;
+    background-color: silver;
+}
+
+.video-collection-container .video-news iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .video-collection-container .card-video-content {
     margin-top: 15px;
     display: flex;
@@ -686,11 +764,6 @@ nav img {
     display: flex;
     flex-direction: column;
     gap: 5px;
-}
-
-.video-collection-container .card-video-news iframe {
-    object-fit: cover;
-    border-radius: 8px;
 }
 
 .video-collection-container .card-video-news p {
@@ -731,12 +804,24 @@ nav img {
 
 /* NOT FOUND CSS */
 .not-found-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     margin: 80px 25px;
+}
+
+.not-found-container .image-news {
+    position: relative;
+    --aspect-ratio: 5/4;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: #FFFFFF;
+}
+
+.not-found-container .image-news img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .not-found-container h1 {
@@ -774,19 +859,41 @@ nav img {
     text-transform: uppercase;
     color: #000000;
 }
+
 /* ads-on */
 .ads-container {
+    position: relative;
     margin: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    --aspect-ratio: 32/5;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
 }
+
+.ads-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /* ads-main */
 .main-ads__container {
-    margin: 30px 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    margin: 25px;
+    --aspect-ratio: 6/5;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+}
+
+.main-ads__container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* highlight-article */
@@ -826,7 +933,20 @@ nav img {
     font-size: 16px;
 }
 
+.highlight-article-container .image-news {
+    position: relative;
+    --aspect-ratio: 23/13;
+    margin: 10px 0;
+    padding-bottom: calc(100%/(var(--aspect-ratio)));
+    background-color: silver;
+}
+
 .highlight-article-container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     object-fit: cover;
 }
 

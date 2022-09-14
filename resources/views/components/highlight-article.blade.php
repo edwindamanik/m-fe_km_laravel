@@ -5,7 +5,9 @@
             <span>1 jam lalu</span>
         </div>
         <figure>
-            <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}" width="100%" height="231.15px">
+            <div class="image-news">
+                <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}">
+            </div>
             <figcaption>4 'Penampakan' Michael Jackson Setelah Kematiannya</figcaption>
         </figure>
     </a>

@@ -2,7 +2,9 @@
   <h4>artikel terkait</h4>
   <a href="#">
     <figure>
-      <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}">
+      <div class="image-news">
+        <img src="{{ URL::asset('assets/images/berita-sidebar-image.png') }}">
+      </div>
       <figcaption>4 'Penampakan' Michael Jackson Setelah Kematiannya</figcaption>
     </figure>
   </a>

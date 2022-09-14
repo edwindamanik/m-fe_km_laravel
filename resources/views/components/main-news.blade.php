@@ -1,7 +1,9 @@
 <div class="main-news-container">
   <figure>
     <a href="#">
-      <img src="{{ URL::asset('assets/images/main-news-image.png') }}">
+      <div class="image-news">
+        <img src="{{ URL::asset('assets/images/main-news-image.png') }}">
+      </div>
     </a>
   </figure>
   <div class="main-news-deskripsi">

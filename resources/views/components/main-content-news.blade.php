@@ -11,7 +11,9 @@
   <div class="content-news">
     <a href="#">
       <figure>
-        <img src="{{ URL::asset('assets/images/news-image.png') }}" alt="images news">
+        <div class="image-news">
+          <img src="{{ URL::asset('assets/images/news-image.png') }}" alt="images news">
+        </div>
         <figcaption>Tersangka kasus pembunuhan Wayan Mirna Salihin, Jessica Kumala Wongso dikawal petugas masuk ke dalam Rutan Pondok Bambu, Jakarta Timur, Jumat (27/5). Jessica terus menunduk saat memasuki gerbang pintu rutan. (Liputan6.com/Yoppy Renato)</figcaption>
       </figure>
     </a>
